@@ -56,3 +56,13 @@ print(cars)
 print("\nHere is the list with the reverse() method:")
 cars.reverse()
 print(cars)
+
+# Finding the length of a list
+
+print("\nFind the length of a list using the len() method:")
+
+cars_length = len(cars)
+cars_length = str(cars_length)
+
+message = "The length of the 'cars' list is " + cars_length
+print(message)
