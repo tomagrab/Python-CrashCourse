@@ -27,10 +27,33 @@ message = "Hello " + guests[3].title() + ", I am writing to you because I would 
 print(message)
 
 message = "Hello " + guests[4].title() + ", I am writing to you because I would like to " \
-                                         "invite you to dinner. Please RSVP."
+                                         "invite you to dinner. Please RSVP.\n"
 print(message)
 
 
-cannot_attend = guests.pop().title() + " is not able to come."
+cannot_attend = guests[-1].title() + " is not able to come.\n"
 
 print(cannot_attend)
+
+guests[-1] = "daniel"
+
+message = "Hello " + guests[0].title() + ", I am writing to you because I would like to " \
+                                         "invite you to dinner. Please RSVP."
+print(message)
+
+message = "Hello " + guests[1].title() + ", I am writing to you because I would like to " \
+                                         "invite you to dinner. Please RSVP."
+print(message)
+
+message = "Hello " + guests[2].title() + ", I am writing to you because I would like to " \
+                                         "invite you to dinner. Please RSVP."
+print(message)
+
+message = "Hello " + guests[3].title() + ", I am writing to you because I would like to " \
+                                         "invite you to dinner. Please RSVP."
+print(message)
+
+message = "Hello " + guests[4].title() + ", I am writing to you because I would like to " \
+                                         "invite you to dinner. Please RSVP.\n"
+print(message)
+
